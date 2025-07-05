@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <title>AgriTech - Landing Page</title>
+    <style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins';
+    }
+
+    body {
+        font-family: 'Segoe UI', sans-serif;
+        line-height: 1.6;
+        background: #f9f9f9;
+        color: #333;
+    }
+
+    header {
+        background-color: #2e7d32;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    header h1 {
+        margin-left: 50px;
+        font-size: 42px;
+        font-weight: bold;
+    }
+
+    nav{
+        margin-right: 20px;
+    }
+
+    nav a {
+        border: 2px solid white;
+        padding: 15px;
+        border-radius: 20px;
+        color: white;
+        text-decoration: none;
+        margin-left: 20px;
+        font-size: 16px;
+        transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+        background-color: white;
+        color: #1b5e20;
+    }
+
+    .hero {
+        padding: 60px 10%;
+        text-align: center;
+        background: linear-gradient(to right, #c8e6c9, #f1f8e9);
+    }
+
+    .hero h2 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    img{
+        width:300px;
+        height:200px;
+    }
+
+    .features {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 40px 10%;
+        background: #fff;
+    }
+
+    .feature-card {
+        background-color: #e8f5e9;
+        padding: 20px;
+        margin: 15px;
+        border-radius: 12px;
+        width: 350px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        transition: transform 0.3s;
+    }
+
+    .feature-card:hover {
+        transform: scale(1.05);
+    }
+
+    .feature-card h3 {
+        margin-bottom: 10px;
+        color: #2e7d32;
+    }
+
+    footer {
+        background-color: #1b5e20;
+        color: white;
+        text-align: center;
+        padding: 30px 10%;
+        font-size: 0.95rem;
+    }
+
+    @media (max-width: 768px) {
+        .features {
+        flex-direction: column;
+        align-items: center;
+        }
+
+        nav {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        }
+
+        nav a {
+        margin: 10px 0;
+        }
+    }
+    </style>
+    </head>
+<body>
+
+    <header>
+    <h1>AgriTech</h1>
+    <nav>
+        <a href="#About Us">About Us</a>
+        <a href="#Contact Us">Contact Us</a>
+        <a href="#Login">Login</a>
+    </nav>
+    </header>
+
+    <section class="hero">
+    <h2>Empowering Farmers with Technology</h2>
+    <p>Discover quality seeds, organic fertilizers, and smart farming tools all in one place.</p>
+    </section>
+
+    <section class="features">
+    <div class="feature-card">
+        <h3>Seeds</h3>
+        <img src="Images/seeds.jpg" alt="seeds">
+        <p>High-quality, certified seeds for better yield and crop variety.</p>
+    </div>
+
+    <div class="feature-card">
+        <h3>Organic Fertilizers</h3>
+        <img src="Images/biofertilizers.jpg" alt="biofertilizers">
+        <p>Eco-friendly fertilizers to improve soil health and crop growth.</p>
+    </div>
+
+    <div class="feature-card">
+        <h3>Farming Equipment</h3>
+        <img src="Images/tools.jpg" alt="farm Equipments">
+        <p>Latest agricultural tools and equipment for efficient farming.</p>
+    </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 AgriTech. All rights reserved.</p>
+        <p>Contact: agritech@gmail.com | Phone: +91-8248603128</p>
+        <p>Location: Madurai, Tamil Nadu, India</p>
+    </footer>
+
+</body>
+</html>
