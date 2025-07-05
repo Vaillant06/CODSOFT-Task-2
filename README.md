@@ -41,7 +41,3 @@ To demonstrate practical knowledge in creating **landing pages** using HTML and 
 
 ## Hashtags for LinkedIn Post
 `#codsoft` `#webdevelopment` `#landingpage` `#html` `#css` `#internship` `#agritech`
-
----
-
-> *This project was built with passion and creativity, demonstrating frontend development skills and design thinking.*
