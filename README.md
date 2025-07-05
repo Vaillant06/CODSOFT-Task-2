@@ -29,7 +29,7 @@ This project highlights clean UI, responsive design, and semantic structure.
 To demonstrate practical knowledge in creating **landing pages** using HTML and CSS, focusing on responsiveness, aesthetics, and user-friendly interface — built as part of **CODSOFT Internship 2025**.
 
 ## Live Demo
-
+[https://vaillant06.github.io/CODSOFT-Task-2/]
 
 ## Video Demo
 ▶ Watch the project demo (Add link if available)
