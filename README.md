@@ -1,4 +1,4 @@
-# CODSOFT-Task2
+# CODSOFT-Task-2
 
 # AgriTech - Landing Page
 
